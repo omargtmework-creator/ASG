@@ -119,7 +119,8 @@ export default function Home() {
         <div className="section-container flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
           <div>
             <p className="text-lg font-semibold text-white">ASG Consultancy</p>
-            <p className="mt-1 text-sm">القاهرة، مصر | contact@asgconsultancy.eg | +20 10 65039924</p>
+            <p className="mt-1 text-sm">القاهرة، مصر | contact@asgconsultancy.com | +20 10 65039924</p>
+            <p className="mt-1 text-sm">designed by Kazem Gaber</p>
             
 
           </div>
@@ -129,7 +130,7 @@ export default function Home() {
             rel="noreferrer"
             className="rounded-full border border-slate-700 p-3 text-slate-200 transition hover:border-[#D4AF37] hover:text-[#D4AF37]"
             aria-label="LinkedIn"
-            <p className="mt-1 text-sm">designed by Kazem Gaber</p>
+            
           >
             <Linkedin className="h-5 w-5" />
           </a>
