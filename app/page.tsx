@@ -119,7 +119,9 @@ export default function Home() {
         <div className="section-container flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
           <div>
             <p className="text-lg font-semibold text-white">ASG Consultancy</p>
-            <p className="mt-1 text-sm">القاهرة، مصر | contact@asgconsultancy.eg | +20 100 123 4567</p>
+            <p className="mt-1 text-sm">القاهرة، مصر | contact@asgconsultancy.eg | +20 10 65039924</p>
+            <p className="mt-1 text-sm">اdesigned by Kazem Gaber</p>
+
           </div>
           <a
             href="https://www.linkedin.com"
