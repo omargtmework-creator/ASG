@@ -21,11 +21,11 @@ export default function Contact() {
             <div className="mt-8 space-y-4 text-slate-200">
               <div className="flex items-center gap-3">
                 <PhoneCall className="h-5 w-5 text-[#D4AF37]" />
-                <span dir="ltr">+20 100 123 4567</span>
+                <span dir="ltr">+20 10 65039924</span>
               </div>
               <div className="flex items-center gap-3">
                 <MessageCircleMore className="h-5 w-5 text-[#10B981]" />
-                <span>contact@asgconsultancy.eg</span>
+                <span>contact@asgconsultancy.com</span>
               </div>
             </div>
           </motion.div>
