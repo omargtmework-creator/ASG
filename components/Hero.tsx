@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowUpLeft, ShieldCheck } from "lucide-react";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -10,9 +11,12 @@ export default function Hero() {
       className="relative isolate overflow-x-hidden bg-gradient-to-br from-[#0F172A] via-[#111827] to-[#1e293b] pb-24 pt-36 text-white"
     >
       <div className="pointer-events-none absolute inset-0 z-0">
-        <img
+        <Image
           src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1800&q=80"
           alt="مكتب محاسبة احترافي"
+          fill
+          sizes="100vw"
+          priority
           className="h-full w-full object-cover opacity-20"
         />
       </div>

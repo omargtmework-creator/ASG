@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Linkedin } from "lucide-react";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
@@ -85,9 +86,11 @@ export default function Home() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.6 }}
           >
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1664575602554-2087b04935a5?auto=format&fit=crop&w=1400&q=80"
               alt="فريق استشاري مالي"
+              width={1400}
+              height={900}
               className="h-[360px] w-full rounded-3xl object-cover shadow-lg"
             />
           </motion.div>
